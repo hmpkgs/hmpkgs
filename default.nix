@@ -45,8 +45,8 @@ with import <nixpkgs> {};
   docker = import (fetchFromGitHub {
     owner = "hmpkgs";
     repo = "docker";
-    rev = "50989a9d33465b4cea3245572abf3aa0e572e01a";
-    sha256 = "02qm5ixjhl9irwf31jczbr2w9cqr0jx17y2khq4yqqalpk7hg40x";
+    rev = "0b63b74dbc98c8958363591e5aaacad7f70fcc6f";
+    sha256 = "1m0467gpg5lyvlass1884cm18a94xzrz5ma2rcb8pxwdy2wy75fn";
   });
 
 }
