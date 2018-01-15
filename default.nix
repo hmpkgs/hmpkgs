@@ -41,12 +41,4 @@ with import <nixpkgs> {};
     sha256 = "0czc6swl2pa7311gwqk75rlbniafj3qyikydwyyzr82j5pn9473m";
   });
 
-  # docker = import ../src/hmpkgs/docker;
-  docker = import (fetchFromGitHub {
-    owner = "hmpkgs";
-    repo = "docker";
-    rev = "0b63b74dbc98c8958363591e5aaacad7f70fcc6f";
-    sha256 = "1m0467gpg5lyvlass1884cm18a94xzrz5ma2rcb8pxwdy2wy75fn";
-  });
-
 }
