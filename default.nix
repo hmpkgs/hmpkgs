@@ -41,4 +41,11 @@ with import <nixpkgs> {};
     sha256 = "1vj1bzgzxa6f76w2qm8641vwxba8bzn6kmb98mwc7y12q5ycmw30";
   });
 
+  karabiner-elements = import (fetchFromGitHub {
+    owner = "hmpkgs";
+    repo = "karabiner-elements";
+    rev = "7a59e7fb863faf4f66ea71c05f50e227a2f5f264";
+    sha256 = "0asj1xbwzhpzx59sy614yb1j2m1ym8f2knj2crv70v6qd6akbgr6";
+  });
+
 }
