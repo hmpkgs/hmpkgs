@@ -37,8 +37,8 @@ with import <nixpkgs> {};
   viscosity = import (fetchFromGitHub {
     owner = "hmpkgs";
     repo = "viscosity";
-    rev = "6a1a058a4b815550fb7d9085381720c4f7dde122";
-    sha256 = "0rb8xia8558vbnnff6agvpkz9g27c8grv6hzmq92b403yf79cli1";
+    rev = "3bbb0287238caa69cd0752edf08ea16812788ed0";
+    sha256 = "1vj1bzgzxa6f76w2qm8641vwxba8bzn6kmb98mwc7y12q5ycmw30";
   });
 
 }
